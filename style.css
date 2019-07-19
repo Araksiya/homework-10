@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(74, 2, 243);
+}
+
+.card{
+    display: inline-block;
+    width: 280px;
+    border: 1px solid rgb(238, 9, 207);
+    border-radius: 20px;
+    padding-bottom: 100px;
+    background-color:rgb(221, 169, 205);
+    margin: 30px;
+}
+.health{
+    border-top: 6px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.stamina{
+    border-top: 6px solid rgb(255, 166, 0);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.character{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 7px;
+  box-shadow: -2px 3px 32px -5px rgba(238, 3, 160, 0.75);
+}
+.image {
+    border-radius: 7px;
+    box-shadow: -2px 3px 32px -5px rgba(238, 3, 160, 0.75);
+    margin-left: 53px;
+    margin-top: 30px;
+}
